@@ -1,0 +1,27 @@
+{
+  "name": "d-s-t-r-k-t",
+  "version": "1.0.0",
+  "description": "A learning tool for autodidacts",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottgago/D-S-T-R-K-T.git"
+  },
+  "author": "Forrest Akin and Scott Gago",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottgago/D-S-T-R-K-T/issues"
+  },
+  "homepage": "https://github.com/scottgago/D-S-T-R-K-T#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "connect-ensure-login": "^0.1.1",
+    "express": "^4.13.4",
+    "nodemon": "^1.9.2",
+    "passport": "^0.3.2",
+    "passport-github": "^1.1.0"
+  }
+}
