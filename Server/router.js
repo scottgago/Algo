@@ -1,5 +1,6 @@
-const server = require('../server.js')
-	  auth = require('./Authentication/authentication.js')
+const server = require('../server.js'),
+	  auth = require('./Authentication/authentication.js'),
+	  db = require('./Database/database.js')
 
 server.app.use(auth.passport.initialize());
 server.app.use(auth.passport.session());

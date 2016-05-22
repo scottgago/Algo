@@ -20,6 +20,8 @@
     "body-parser": "^1.15.1",
     "connect-ensure-login": "^0.1.1",
     "express": "^4.13.4",
+    "mongodb": "^2.1.19",
+    "mongoose": "^4.4.19",
     "nodemon": "^1.9.2",
     "passport": "^0.3.2",
     "passport-github": "^1.1.0"
